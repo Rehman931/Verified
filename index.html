@@ -17,6 +17,8 @@
         </div>
     </header>
 
+
+
     <nav class="navbar">
         <ul>
             <li><a href="#clothing">Clothing</a></li>
@@ -26,40 +28,44 @@
         </ul>
     </nav>
 
+
+
     <section id="clothing" class="products">
         <h2>Clothing</h2>
         <div class="product-cards" id="clothing-products">
             <!-- Five clothing products to start -->
             <div class="card">
-                <img src="https://example.com/shirt1.jpg" alt="Stylish T-Shirt">
-                <h3><a href="https://amazon.com/product-link-1" target="_blank">Stylish T-Shirt</a></h3>
-                <p>Price: $19.99</p>
-                <button onclick="contactMe('Stylish T-Shirt')">Contact Me on WhatsApp</button>
+                <img src="suit1.jpg" alt="Chanderi Cotton">
+                <h3><a href="https://amzn.to/4e2DUWF">BUY</a></h3>
+                <p>Price:Rs 368</p>
+                <button onclick="contactMe('Chanderi Cotton')">Contact Me on WhatsApp</button>
             </div>
             <div class="card">
-                <img src="https://example.com/shirt2.jpg" alt="Classic Jeans">
-                <h3><a href="https://amazon.com/product-link-2" target="_blank">Classic Jeans</a></h3>
-                <p>Price: $49.99</p>
-                <button onclick="contactMe('Classic Jeans')">Contact Me on WhatsApp</button>
+                <img src="suit2.jpg" alt="Sidhidata Cotton">
+                <h3><a href="https://amzn.to/3YmWuD9">BUY</a></h3>
+                <p>Price:Rs 498</p>
+                <button onclick="contactMe('Sidhidata Cotton')">Contact Me on WhatsApp</button>
             </div>
             <!-- Add three more products using the same format -->
         </div>
         <button class="toggle-products" onclick="toggleProducts('clothing')">Show More</button>
     </section>
 
+
+
     <section id="watches" class="products">
         <h2>Watches</h2>
         <div class="product-cards" id="watches-products">
             <div class="card">
-                <img src="https://example.com/watch1.jpg" alt="Luxury Watch">
-                <h3><a href="https://amazon.com/product-link-3" target="_blank">Luxury Watch</a></h3>
-                <p>Price: $199.99</p>
+                <img src="watch1.jpg" alt="Luxury Watch">
+                <h3><a href="https://amzn.to/3A2Iaro">BUY</a></h3>
+                <p>Price: Rs 99</p>
                 <button onclick="contactMe('Luxury Watch')">Contact Me on WhatsApp</button>
             </div>
             <div class="card">
-                <img src="https://example.com/watch2.jpg" alt="Sports Watch">
-                <h3><a href="https://amazon.com/product-link-4" target="_blank">Sports Watch</a></h3>
-                <p>Price: $99.99</p>
+                <img src="watch2.jpg" alt="Sports Watch">
+                <h3><a href="https://amzn.to/4e5u866" >BUY</a></h3>
+                <p>Price:Rs 289</p>
                 <button onclick="contactMe('Sports Watch')">Contact Me on WhatsApp</button>
             </div>
             <!-- Add three more products using the same format -->
@@ -67,19 +73,21 @@
         <button class="toggle-products" onclick="toggleProducts('watches')">Show More</button>
     </section>
 
+
+
     <section id="perfumes" class="products">
         <h2>Perfumes</h2>
         <div class="product-cards" id="perfumes-products">
             <div class="card">
-                <img src="https://example.com/perfume1.jpg" alt="Floral Perfume">
-                <h3><a href="https://amazon.com/product-link-5" target="_blank">Floral Perfume</a></h3>
-                <p>Price: $59.99</p>
+                <img src="perfume1.webp" alt="Floral Perfume">
+                <h3><a href="https://amzn.to/4hllHX2" >BUY</a></h3>
+                <p>Price:Rs 449</p>
                 <button onclick="contactMe('Floral Perfume')">Contact Me on WhatsApp</button>
             </div>
             <div class="card">
-                <img src="https://example.com/perfume2.jpg" alt="Woody Perfume">
-                <h3><a href="https://amazon.com/product-link-6" target="_blank">Woody Perfume</a></h3>
-                <p>Price: $69.99</p>
+                <img src="perfume2.webp" alt="Woody Perfume">
+                <h3><a href="https://amzn.to/3UmQB7w" >BUY</a></h3>
+                <p>Price:Rs 180</p>
                 <button onclick="contactMe('Woody Perfume')">Contact Me on WhatsApp</button>
             </div>
             <!-- Add three more products using the same format -->
@@ -87,88 +95,11 @@
         <button class="toggle-products" onclick="toggleProducts('perfumes')">Show More</button>
     </section>
 
-    <section id="beauty-products" class="products">
-        <h2>Beauty Products</h2>
-        <div class="product-cards" id="beauty-products-list">
-            <div class="card">
-                <img src="https://example.com/beauty1.jpg" alt="Moisturizer">
-                <h3><a href="https://amazon.com/product-link-7" target="_blank">Moisturizer</a></h3>
-                <p>Price: $29.99</p>
-                <button onclick="contactMe('Moisturizer')">Contact Me on WhatsApp</button>
-            </div>
-            <div class="card">
-                <img src="https://example.com/beauty2.jpg" alt="Face Mask">
-                <h3><a href="https://amazon.com/product-link-8" target="_blank">Face Mask</a></h3>
-                <p>Price: $19.99</p>
-                <button onclick="contactMe('Face Mask')">Contact Me on WhatsApp</button>
-            </div>
-            <!-- Add three more products using the same format -->
-        </div>
-        <button class="toggle-products" onclick="toggleProducts('beauty-products')">Show More</button>
-    </section>
 
     <footer>
         <p>Contact Us: <a href="mailto:sanaurrehman931@gmail.com">sanaurrehman931@gmail.com</a></p>
     </footer>
 
-    <script>
-        const moreProducts = {
-            'clothing': [
-                {name: 'Jacket', price: '$59.99', img: 'https://example.com/shirt3.jpg', link: 'https://amazon.com/product-link-9'},
-                {name: 'Summer Dress', price: '$39.99', img: 'https://example.com/pant1.jpg', link: 'https://amazon.com/product-link-10'},
-                {name: 'Winter Coat', price: '$79.99', img: 'https://example.com/kurti1.jpg', link: 'https://amazon.com/product-link-11'}
-            ],
-            'watches': [
-                {name: 'Leather Watch', price: '$129.99', img: 'https://example.com/watch3.jpg', link: 'https://amazon.com/product-link-12'},
-                {name: 'Digital Watch', price: '$49.99', img: 'https://example.com/watch4.jpg', link: 'https://amazon.com/product-link-13'},
-                {name: 'Classic Watch', price: '$89.99', img: 'https://example.com/watch5.jpg', link: 'https://amazon.com/product-link-14'}
-            ],
-            'perfumes': [
-                {name: 'Citrus Perfume', price: '$49.99', img: 'https://example.com/perfume3.jpg', link: 'https://amazon.com/product-link-15'},
-                {name: 'Spicy Perfume', price: '$69.99', img: 'https://example.com/perfume4.jpg', link: 'https://amazon.com/product-link-16'},
-                {name: 'Aromatic Perfume', price: '$79.99', img: 'https://example.com/perfume5.jpg', link: 'https://amazon.com/product-link-17'}
-            ],
-            'beauty-products': [
-                {name: 'Lip Balm', price: '$9.99', img: 'https://example.com/beauty3.jpg', link: 'https://amazon.com/product-link-18'},
-                {name: 'Eye Cream', price: '$39.99', img: 'https://example.com/beauty4.jpg', link: 'https://amazon.com/product-link-19'},
-                {name: 'Face Serum', price: '$49.99', img: 'https://example.com/beauty5.jpg', link: 'https://amazon.com/product-link-20'}
-            ]
-        };
-
-        let productsShown = {};
-
-        function toggleProducts(category) {
-            const productContainer = document.getElementById(`${category}-products`);
-            const button = document.querySelector(`#${category} .toggle-products`);
-
-            if (!productsShown[category]) {
-                moreProducts[category].forEach(product => {
-                    const productCard = `
-                        <div class="card">
-                            <img src="${product.img}" alt="${product.name}">
-                            <h3><a href="${product.link}" target="_blank">${product.name}</a></h3>
-                            <p>Price: ${product.price}</p>
-                            <button onclick="contactMe('${product.name}')">Contact Me on WhatsApp</button>
-                        </div>
-                    `;
-                    productContainer.insertAdjacentHTML('beforeend', productCard);
-                });
-                button.innerText = "Show Less";
-                productsShown[category] = true;
-            } else {
-                const extraProducts = productContainer.querySelectorAll('.card:nth-child(n+3)');
-                extraProducts.forEach(product => product.remove());
-                button.innerText = "Show More";
-                productsShown[category] = false;
-            }
-        }
-
-        function contactMe(product) {
-            const message = `I'm interested in the ${product}. Please contact me.`;
-            const phoneNumber = '7055063850';
-            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
